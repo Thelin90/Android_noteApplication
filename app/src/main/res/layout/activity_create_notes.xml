@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/simons_background"
+    tools:context="simon.noteapplicationandroid.CreateNotes">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:columnCount="1"
+        android:rowCount="3">
+
+        <TextView
+            android:text="@string/note"/>
+
+        <EditText
+            android:id="@+id/notetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/addNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addnote" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:src="@drawable/pen"
+            android:visibility="visible" />
+
+    </GridLayout>
+
+</FrameLayout>

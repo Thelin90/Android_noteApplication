@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="create_note">Create note</string>
+    <string name="view_notes">View notes</string>
+    <string name="title_activity_create_notes">CreateNotes</string>
+    <string name="addnote">Add note</string>
+    <string name="note">Note</string>
+    <string name="date">Date</string>
+    <string name="title_activity_show_notes">ShowNotes</string>
+
+    <string name="title_activity_create_note">CreateNote</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

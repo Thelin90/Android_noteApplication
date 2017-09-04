@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="simon.noteapplicationandroid.MainActivity"
+    android:background="@color/simons_background"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <FrameLayout
+        android:layout_width="479dp"
+        android:layout_height="831dp"
+        android:layout_gravity="center|top"
+        tools:layout_editor_absoluteY="89dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:ignore="MissingConstraints">
+
+        <GridLayout
+            android:layout_width="319dp"
+            android:layout_height="313dp"
+            android:columnCount="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:rowCount="3"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="258dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:text="@string/create_note" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:text="@string/view_notes" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:src="@drawable/notepad"
+                android:visibility="visible" />
+
+        </GridLayout>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
